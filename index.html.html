@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callao Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-3xl mx-auto bg-white p-6 rounded-2xl shadow-xl">
+        <h1 class="text-3xl font-bold mb-4 text-center">The Callao</h1>
+
+        <p class="mb-4 text-lg">Click on the map to continue.</p>
+
+        <!-- MAPA -->
+        <img src="imggg.jpg" 
+             alt="Callao Map" 
+             class="rounded-xl shadow-md mb-6 cursor-pointer" 
+             onclick="showContent()">
+
+        <!-- CONTENIDO OCULTO -->
+        <div id="content" class="hidden text-lg">
+            <h2 class="text-2xl font-semibold mb-2">General Information</h2>
+            <p class="mb-4">
+                The Callao is one of the most important port regions in Peru. It is known for its
+                great cultural diversity, its history, and its significant commercial activity.
+            </p>
+
+            <img src="hluu.jpg" class="rounded-xl shadow-md mb-4" alt="Callao Image 1">
+
+            <h2 class="text-2xl font-semibold mb-2">Location</h2>
+            <p class="mb-4">
+                The Callao is located on the central western coast of Peru, next to Lima, facing the Pacific Ocean.
+            </p>
+
+            <img src="csta.jpg" class="rounded-xl shadow-md mb-4" alt="Callao Image 2">
+
+            <h2 class="text-2xl font-semibold mb-2">Importance</h2>
+            <p class="mb-4">
+                It is the main port of Peru and one of the most important ports in South America.
+                It facilitates international trade and plays a key role in the country's economy.
+            </p>
+
+            <img src="puerto.jpg" class="rounded-xl shadow-md mb-4" alt="Callao Image 3">
+
+            <h2 class="text-2xl font-semibold mb-2">Tourism</h2>
+            <p class="mb-4">
+                The Callao has touristic places such as La Punta, Real Felipe Fortress, and the Naval Museum.
+                Visitors can enjoy beaches, historical sites, and local cuisine.
+            </p>
+
+            <img src="real.jpg" class="rounded-xl shadow-md mb-4" alt="Callao Image 4"> <img src="presbiterooo.jpg"
+        </div>
+            
+    </div>
+
+    <script>
+        function showContent() {
+            document.getElementById('content').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
